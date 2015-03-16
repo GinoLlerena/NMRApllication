@@ -1,0 +1,299 @@
+﻿Build started 15/03/2015 10:21:47 a.m..
+     1>Project "C:\Informacion\Tesis\Tesis\Sistema 09 (01-12-98)\Proyecto.vcxproj" on node 2 (Rebuild target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /D _DEBUG /mktyplib203 /W1 /nologo /char signed /env win32 /h "Proyecto_h.h" /tlb ".\Debug\Proyecto.tlb" /o "NUL" Proyecto.odl 
+         Proyecto.odl
+         oaidl.idl
+         objidl.idl
+         unknwn.idl
+         wtypes.idl
+         wtypesbase.idl
+         basetsd.h
+         guiddef.h
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\Proyecto.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\Proyecto.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3DDataPage.cpp 3DDataSheet.cpp 3DToolBar.cpp Actualizador.cpp Angulo.cpp AnguloPage.cpp AnguloSheet.cpp CalculoTensoresPageDos.cpp CalculoTensoresPageUno.cpp CalculoTensoresSheet.cpp ConstructorMolecula.cpp CoordEsf.cpp Distorcion.cpp EjeRotacionPage.cpp EjeRotacionSheet.cpp EnlacePageOne.cpp EnlacePageThree.cpp EnlacePageTwo.cpp EnlaceSheet.cpp Fichero.cpp IconosDlgBar.cpp InteraccCalculada.cpp InteraccComponent.cpp InteraccComponentDlg.cpp Interaccion.cpp InteraccObservada.cpp InteraccObservadaPageOne.cpp InteraccObservadaPageTwo.cpp InteraccObservadaSheet.cpp Lado.cpp ListaPartesDlg.cpp MainBar.cpp MainFrm.cpp Material.cpp Mathemat.cpp Matriz.cpp ObjectsBox.cpp OpenGLView.cpp Parametro.cpp ParametroPageOne.cpp ParametroPageTwo.cpp ParametroSheet.cpp ParametroVariable.cpp ParametroVariablePageOne.cpp ParametroVariablePageTwo.cpp ParametroVariableSheet.cpp ParteRigida.cpp PartesListCtrl.cpp PreferenciasPageOne.cpp PreferenciasPageThree.cpp PreferenciasPageTwo.cpp PreferenciasSheet.cpp ProgressDlg.cpp PropiedadesDlg.cpp Proyecto.cpp ProyectoDoc.cpp ProyectoView.cpp PtoPerpendicular.cpp Punto3D.cpp RealizadorCalculo.cpp RealizadorReporte.cpp RectaPage.cpp RectaSheet.cpp ResultadosOnePageOne.cpp ResultadosOnePageThree.cpp ResultadosOnePageTwo.cpp ResultadosOneSheet.cpp Rutinas.cpp Seleccionadora.cpp SistEcuac.cpp Spin.cpp Splash.cpp TempView.cpp Tensor.cpp Trigonom.cpp ValorDual.cpp
+         ValorDual.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\valordual.cpp(92): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\valordual.cpp(93): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+         Trigonom.cpp
+         Tensor.cpp
+         TempView.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(50): error C2664: 'BOOL CFont::CreateFontW(int,int,int,int,int,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,LPCTSTR)' : cannot convert argument 14 from 'const char [16]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(177): error C2664: 'BOOL CFont::CreateFontW(int,int,int,int,int,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,BYTE,LPCTSTR)' : cannot convert argument 14 from 'const char [16]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(203): error C2440: 'type cast' : cannot convert from 'CString' to 'LPCSTR'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(203): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [13]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(206): error C2440: 'type cast' : cannot convert from 'const CString' to 'LPCSTR'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(206): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [13]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\tempview.cpp(211): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [8]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Splash.cpp
+         Spin.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\sscommon.h(14): fatal error C1083: Cannot open include file: 'GL\glaux.h': No such file or directory
+         SistEcuac.cpp
+         Seleccionadora.cpp
+         Rutinas.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\sscommon.h(14): fatal error C1083: Cannot open include file: 'GL\glaux.h': No such file or directory
+         ResultadosOneSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\resultadosonesheet.cpp(57): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ResultadosOnePageTwo.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\resultadosonepagetwo.cpp(139): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ResultadosOnePageThree.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\resultadosonepagethree.cpp(229): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\resultadosonepagethree.cpp(240): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ResultadosOnePageOne.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\resultadosonepageone.cpp(141): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         RectaSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\rectasheet.cpp(30): error C2440: '=' : cannot convert from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         RectaPage.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\rectapage.cpp(109): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [59]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         RealizadorReporte.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(197): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(237): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(286): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(335): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [9]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(338): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [9]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\realizadorreporte.cpp(341): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [9]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         RealizadorCalculo.cpp
+         Punto3D.cpp
+         PtoPerpendicular.cpp
+         ProyectoView.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(243): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [63]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(250): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [63]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(257): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [63]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(341): error C2664: 'CAnguloSheet::CAnguloSheet(const CAnguloSheet &)' : cannot convert argument 1 from 'const char [47]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(349): error C2664: 'CAnguloSheet::CAnguloSheet(const CAnguloSheet &)' : cannot convert argument 1 from 'const char [47]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(357): error C2664: 'CEjeRotacionSheet::CEjeRotacionSheet(const CEjeRotacionSheet &)' : cannot convert argument 1 from 'const char [46]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(378): error C2664: 'CRectaSheet::CRectaSheet(const CRectaSheet &)' : cannot convert argument 1 from 'const char [45]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(388): error C2664: 'CAnguloSheet::CAnguloSheet(const CAnguloSheet &)' : cannot convert argument 1 from 'const char [34]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(395): error C2664: 'CEjeRotacionSheet::CEjeRotacionSheet(const CEjeRotacionSheet &)' : cannot convert argument 1 from 'const char [40]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(419): error C2664: 'CAnguloSheet::CAnguloSheet(const CAnguloSheet &)' : cannot convert argument 1 from 'const char [44]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(427): error C2664: 'CAnguloSheet::CAnguloSheet(const CAnguloSheet &)' : cannot convert argument 1 from 'const char [44]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(435): error C2664: 'CEjeRotacionSheet::CEjeRotacionSheet(const CEjeRotacionSheet &)' : cannot convert argument 1 from 'const char [42]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(505): error C2664: 'CFileDialog::CFileDialog(const CFileDialog &)' : cannot convert argument 2 from 'char [4]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(587): error C2664: 'CPreferenciasSheet::CPreferenciasSheet(const CPreferenciasSheet &)' : cannot convert argument 1 from 'const char [13]' to 'UINT'
+                 There is no context in which this conversion is possible
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(655): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [76]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(661): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [80]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(675): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [90]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(687): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [90]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(696): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [90]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(702): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [90]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(708): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [90]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(731): error C2664: 'CFileDialog::CFileDialog(const CFileDialog &)' : cannot convert argument 2 from 'char [4]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(748): error C2065: 'LstrPath' : undeclared identifier
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(749): error C2065: 'LstrPath' : undeclared identifier
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(750): error C2065: 'LstrPath' : undeclared identifier
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyectoview.cpp(817): error C2664: 'CFileDialog::CFileDialog(const CFileDialog &)' : cannot convert argument 2 from 'char [4]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Generating Code...
+         Compiling...
+         ProyectoDoc.cpp
+         Proyecto.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\proyecto.cpp(87): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : see declaration of 'CWinApp::Enable3dControls'
+         PropiedadesDlg.cpp
+         ProgressDlg.cpp
+         PreferenciasSheet.cpp
+         PreferenciasPageTwo.cpp
+         PreferenciasPageThree.cpp
+         PreferenciasPageOne.cpp
+         PartesListCtrl.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parteslistctrl.cpp(81): error C2664: 'int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)' : cannot convert argument 2 from 'char *' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParteRigida.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\sscommon.h(14): fatal error C1083: Cannot open include file: 'GL\glaux.h': No such file or directory
+         ParametroVariableSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablesheet.cpp(56): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParametroVariablePageTwo.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepagetwo.cpp(124): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepagetwo.cpp(127): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepagetwo.cpp(130): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParametroVariablePageOne.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepageone.cpp(165): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [64]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepageone.cpp(194): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [65]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrovariablepageone.cpp(224): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [65]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParametroVariable.cpp
+         ParametroSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametrosheet.cpp(56): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParametroPageTwo.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametropagetwo.cpp(125): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametropagetwo.cpp(129): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametropagetwo.cpp(133): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametropagetwo.cpp(137): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ParametroPageOne.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametropageone.cpp(102): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [67]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Parametro.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\parametro.cpp(79): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+         OpenGLView.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\openglview.cpp(16): fatal error C1083: Cannot open include file: 'gl\glaux.h': No such file or directory
+         ObjectsBox.cpp
+         Generating Code...
+         Compiling...
+         Matriz.cpp
+         Mathemat.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\mathemat.cpp(43): error C2556: 'int round(const double)' : overloaded function differs only by return type from 'double round(double)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see declaration of 'round'
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\mathemat.cpp(43): error C2371: 'round' : redefinition; different basic types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see declaration of 'round'
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\mathemat.cpp(43): error C2491: 'round' : definition of dllimport function not allowed
+         Material.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\sscommon.h(14): fatal error C1083: Cannot open include file: 'GL\glaux.h': No such file or directory
+         MainFrm.cpp
+         MainBar.cpp
+         ListaPartesDlg.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\listapartesdlg.cpp(125): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [50]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\listapartesdlg.cpp(128): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [109]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Lado.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\lado.cpp(13): fatal error C1083: Cannot open include file: 'gl\glaux.h': No such file or directory
+         InteraccObservadaSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadasheet.cpp(56): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         InteraccObservadaPageTwo.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapagetwo.cpp(114): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         InteraccObservadaPageOne.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapageone.cpp(213): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [64]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapageone.cpp(219): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [64]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapageone.cpp(225): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [93]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapageone.cpp(265): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [68]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interaccobservadapageone.cpp(308): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [68]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         InteraccObservada.cpp
+         Interaccion.cpp
+         InteraccComponentDlg.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(99): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [76]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(123): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [76]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(136): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [93]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(163): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [89]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(192): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [59]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(216): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [89]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(274): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [92]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(288): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [110]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(319): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [84]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\interacccomponentdlg.cpp(508): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)' : cannot convert argument 1 from 'const char [3]' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         InteraccComponent.cpp
+         InteraccCalculada.cpp
+         IconosDlgBar.cpp
+         Fichero.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\fichero.cpp(39): error C2664: 'CFileDialog::CFileDialog(const CFileDialog &)' : cannot convert argument 2 from 'char [4]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         EnlaceSheet.cpp
+         EnlacePageTwo.cpp
+         EnlacePageThree.cpp
+         Generating Code...
+         Compiling...
+         EnlacePageOne.cpp
+         EjeRotacionSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\ejerotacionsheet.cpp(31): error C2440: '=' : cannot convert from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         EjeRotacionPage.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\ejerotacionpage.cpp(24): error C2440: '=' : cannot convert from 'const char [7]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Distorcion.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\distorcion.cpp(161): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1251): could be 'long double sqrt(long double) throw()'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1135): or       'float sqrt(float) throw()'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(521): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+         CoordEsf.cpp
+         ConstructorMolecula.cpp
+         CalculoTensoresSheet.cpp
+         CalculoTensoresPageUno.cpp
+         CalculoTensoresPageDos.cpp
+         AnguloSheet.cpp
+         AnguloPage.cpp
+         Angulo.cpp
+         Actualizador.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\actualizador.cpp(38): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [46]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\actualizador.cpp(44): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [69]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\actualizador.cpp(57): error C2664: 'int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)' : cannot convert argument 1 from 'const char [48]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         3DToolBar.cpp
+         3DDataSheet.cpp
+     1>c:\informacion\tesis\tesis\sistema 09 (01-12-98)\3ddatasheet.cpp(28): error C2440: '=' : cannot convert from 'const char [16]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         3DDataPage.cpp
+         Generating Code...
+     1>Done Building Project "C:\Informacion\Tesis\Tesis\Sistema 09 (01-12-98)\Proyecto.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.34

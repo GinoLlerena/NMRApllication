@@ -1,0 +1,26 @@
+// Tensor.cpp: implementation of the CTensor class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Tensor.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CTensor::CTensor() : CValorDual()
+{
+
+}
+
+CTensor::~CTensor()
+{
+
+}

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{570C8670-56FA-45C2-B3D6-618041CD2873}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\Proyecto.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Proyecto.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0c0a</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Proyecto.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Proyecto.exe</OutputFile>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\Proyecto.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Proyecto.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0c0a</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Proyecto.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\Proyecto.exe</OutputFile>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DDataPage.cpp" />
+    <ClCompile Include="3DDataSheet.cpp" />
+    <ClCompile Include="3DToolBar.cpp" />
+    <ClCompile Include="Actualizador.cpp" />
+    <ClCompile Include="Angulo.cpp" />
+    <ClCompile Include="AnguloPage.cpp" />
+    <ClCompile Include="AnguloSheet.cpp" />
+    <ClCompile Include="CalculoTensoresPageDos.cpp" />
+    <ClCompile Include="CalculoTensoresPageUno.cpp" />
+    <ClCompile Include="CalculoTensoresSheet.cpp" />
+    <ClCompile Include="ConstructorMolecula.cpp" />
+    <ClCompile Include="CoordEsf.cpp" />
+    <ClCompile Include="Distorcion.cpp" />
+    <ClCompile Include="EjeRotacionPage.cpp" />
+    <ClCompile Include="EjeRotacionSheet.cpp" />
+    <ClCompile Include="EnlacePageOne.cpp" />
+    <ClCompile Include="EnlacePageThree.cpp" />
+    <ClCompile Include="EnlacePageTwo.cpp" />
+    <ClCompile Include="EnlaceSheet.cpp" />
+    <ClCompile Include="Fichero.cpp" />
+    <ClCompile Include="IconosDlgBar.cpp" />
+    <ClCompile Include="InteraccCalculada.cpp" />
+    <ClCompile Include="InteraccComponent.cpp" />
+    <ClCompile Include="InteraccComponentDlg.cpp" />
+    <ClCompile Include="Interaccion.cpp" />
+    <ClCompile Include="InteraccObservada.cpp" />
+    <ClCompile Include="InteraccObservadaPageOne.cpp" />
+    <ClCompile Include="InteraccObservadaPageTwo.cpp" />
+    <ClCompile Include="InteraccObservadaSheet.cpp" />
+    <ClCompile Include="Lado.cpp" />
+    <ClCompile Include="ListaPartesDlg.cpp" />
+    <ClCompile Include="MainBar.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Mathemat.cpp" />
+    <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="ObjectsBox.cpp" />
+    <ClCompile Include="OpenGLView.cpp" />
+    <ClCompile Include="Parametro.cpp" />
+    <ClCompile Include="ParametroPageOne.cpp" />
+    <ClCompile Include="ParametroPageTwo.cpp" />
+    <ClCompile Include="ParametroSheet.cpp" />
+    <ClCompile Include="ParametroVariable.cpp" />
+    <ClCompile Include="ParametroVariablePageOne.cpp" />
+    <ClCompile Include="ParametroVariablePageTwo.cpp" />
+    <ClCompile Include="ParametroVariableSheet.cpp" />
+    <ClCompile Include="ParteRigida.cpp" />
+    <ClCompile Include="PartesListCtrl.cpp" />
+    <ClCompile Include="PreferenciasPageOne.cpp" />
+    <ClCompile Include="PreferenciasPageThree.cpp" />
+    <ClCompile Include="PreferenciasPageTwo.cpp" />
+    <ClCompile Include="PreferenciasSheet.cpp" />
+    <ClCompile Include="ProgressDlg.cpp" />
+    <ClCompile Include="PropiedadesDlg.cpp" />
+    <ClCompile Include="Proyecto.cpp" />
+    <ClCompile Include="ProyectoDoc.cpp" />
+    <ClCompile Include="ProyectoView.cpp" />
+    <ClCompile Include="PtoPerpendicular.cpp" />
+    <ClCompile Include="Punto3D.cpp" />
+    <ClCompile Include="RealizadorCalculo.cpp" />
+    <ClCompile Include="RealizadorReporte.cpp" />
+    <ClCompile Include="RectaPage.cpp" />
+    <ClCompile Include="RectaSheet.cpp" />
+    <ClCompile Include="ResultadosOnePageOne.cpp" />
+    <ClCompile Include="ResultadosOnePageThree.cpp" />
+    <ClCompile Include="ResultadosOnePageTwo.cpp" />
+    <ClCompile Include="ResultadosOneSheet.cpp" />
+    <ClCompile Include="Rutinas.cpp" />
+    <ClCompile Include="Seleccionadora.cpp" />
+    <ClCompile Include="SistEcuac.cpp" />
+    <ClCompile Include="Spin.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="TempView.cpp" />
+    <ClCompile Include="Tensor.cpp" />
+    <ClCompile Include="Trigonom.cpp" />
+    <ClCompile Include="ValorDual.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hlp\AfxCore.rtf" />
+    <CustomBuild Include="hlp\AfxPrint.rtf" />
+    <CustomBuild Include="hlp\Proyecto.cnt" />
+    <CustomBuild Include="MakeHelp.bat" />
+    <CustomBuild Include="Proyecto.reg" />
+    <CustomBuild Include="res\CursorAF.cur" />
+    <CustomBuild Include="res\CursorBF.cur" />
+    <CustomBuild Include="res\CursorTF.cur" />
+    <CustomBuild Include="Res\DragParteRigida.cur" />
+    <CustomBuild Include="res\Proyecto.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Proyecto.odl">
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Win32</TargetEnvironment>
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Win32</TargetEnvironment>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Proyecto.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DDataPage.h" />
+    <ClInclude Include="3DDataSheet.h" />
+    <ClInclude Include="3DToolBar.h" />
+    <ClInclude Include="Actualizador.h" />
+    <ClInclude Include="Angulo.h" />
+    <ClInclude Include="AnguloPage.h" />
+    <ClInclude Include="AnguloSheet.h" />
+    <ClInclude Include="CalculoTensoresPageDos.h" />
+    <ClInclude Include="CalculoTensoresPageUno.h" />
+    <ClInclude Include="CalculoTensoresSheet.h" />
+    <ClInclude Include="ConstructorMolecula.h" />
+    <ClInclude Include="CoordEsf.h" />
+    <ClInclude Include="Distorcion.h" />
+    <ClInclude Include="EjeRotacionPage.h" />
+    <ClInclude Include="EjeRotacionSheet.h" />
+    <ClInclude Include="EnlacePageOne.h" />
+    <ClInclude Include="EnlacePageThree.h" />
+    <ClInclude Include="EnlacePageTwo.h" />
+    <ClInclude Include="EnlaceSheet.h" />
+    <ClInclude Include="ErrorMsg.h" />
+    <ClInclude Include="Fichero.h" />
+    <ClInclude Include="IconosDlgBar.h" />
+    <ClInclude Include="InteraccCalculada.h" />
+    <ClInclude Include="InteraccComponent.h" />
+    <ClInclude Include="InteraccComponentDlg.h" />
+    <ClInclude Include="Interaccion.h" />
+    <ClInclude Include="InteraccObservada.h" />
+    <ClInclude Include="InteraccObservadaPageOne.h" />
+    <ClInclude Include="InteraccObservadaPageTwo.h" />
+    <ClInclude Include="InteraccObservadaSheet.h" />
+    <ClInclude Include="Lado.h" />
+    <ClInclude Include="ListaPartesDlg.h" />
+    <ClInclude Include="MainBar.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Mathemat.h" />
+    <ClInclude Include="Matriz.h" />
+    <ClInclude Include="ObjectsBox.h" />
+    <ClInclude Include="OpenGLView.h" />
+    <ClInclude Include="Parametro.h" />
+    <ClInclude Include="ParametroPageOne.h" />
+    <ClInclude Include="ParametroPageTwo.h" />
+    <ClInclude Include="ParametroSheet.h" />
+    <ClInclude Include="ParametroVariable.h" />
+    <ClInclude Include="ParametroVariablePageOne.h" />
+    <ClInclude Include="ParametroVariablePageTwo.h" />
+    <ClInclude Include="ParametroVariableSheet.h" />
+    <ClInclude Include="ParteRigida.h" />
+    <ClInclude Include="PartesListCtrl.h" />
+    <ClInclude Include="PreferenciasPageOne.h" />
+    <ClInclude Include="PreferenciasPageThree.h" />
+    <ClInclude Include="PreferenciasPageTwo.h" />
+    <ClInclude Include="PreferenciasSheet.h" />
+    <ClInclude Include="ProgressDlg.h" />
+    <ClInclude Include="PropiedadesDlg.h" />
+    <ClInclude Include="Proyecto.h" />
+    <ClInclude Include="ProyectoDoc.h" />
+    <ClInclude Include="ProyectoView.h" />
+    <ClInclude Include="PtoPerpendicular.h" />
+    <ClInclude Include="Punto3D.h" />
+    <ClInclude Include="RealizadorCalculo.h" />
+    <ClInclude Include="RealizadorReporte.h" />
+    <ClInclude Include="RectaPage.h" />
+    <ClInclude Include="RectaSheet.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResultadosOnePageOne.h" />
+    <ClInclude Include="ResultadosOnePageThree.h" />
+    <ClInclude Include="ResultadosOnePageTwo.h" />
+    <ClInclude Include="ResultadosOneSheet.h" />
+    <ClInclude Include="Rutinas.h" />
+    <ClInclude Include="Seleccionadora.h" />
+    <ClInclude Include="SistEcuac.h" />
+    <ClInclude Include="Spin.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="Sscommon.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Structures.h" />
+    <ClInclude Include="TempView.h" />
+    <ClInclude Include="Tensor.h" />
+    <ClInclude Include="Trigonom.h" />
+    <ClInclude Include="ValorDual.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="hlp\3DTBar.bmp" />
+    <Image Include="hlp\AppExit.bmp" />
+    <Image Include="hlp\Bullet.bmp" />
+    <Image Include="hlp\CurArw2.bmp" />
+    <Image Include="hlp\CurArw4.bmp" />
+    <Image Include="hlp\CurHelp.bmp" />
+    <Image Include="hlp\EditCopy.bmp" />
+    <Image Include="hlp\EditCut.bmp" />
+    <Image Include="hlp\EditPast.bmp" />
+    <Image Include="hlp\EditUndo.bmp" />
+    <Image Include="hlp\FileNew.bmp" />
+    <Image Include="hlp\FileOpen.bmp" />
+    <Image Include="hlp\FilePrnt.bmp" />
+    <Image Include="hlp\FileSave.bmp" />
+    <Image Include="hlp\HlpSBar.bmp" />
+    <Image Include="hlp\HlpTBar.bmp" />
+    <Image Include="hlp\Scmax.bmp" />
+    <Image Include="hlp\ScMenu.bmp" />
+    <Image Include="hlp\Scmin.bmp" />
+    <Image Include="res\AnilloFe.ico" />
+    <Image Include="Res\AnilloFenil.bmp" />
+    <Image Include="Res\Bifenil.bmp" />
+    <Image Include="res\Bifenil.ico" />
+    <Image Include="Res\Interacc.ico" />
+    <Image Include="Res\MainFrm.bmp" />
+    <Image Include="res\Param.ico" />
+    <Image Include="res\Proyecto.ico" />
+    <Image Include="res\ProyectoDoc.ico" />
+    <Image Include="Res\Splsh16.bmp" />
+    <Image Include="Res\Tensor.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="Res\Toolbar1.bmp" />
+    <Image Include="Res\Trifenil.bmp" />
+    <Image Include="res\Trifenil.ico" />
+    <Image Include="Res\TrifenilAvertura.bmp" />
+    <Image Include="Res\_AnilloFenil.bmp" />
+    <Image Include="Res\_AnilloFenilRotacion.bmp" />
+    <Image Include="Res\_Bifenil.bmp" />
+    <Image Include="Res\_BifenilRotacion.bmp" />
+    <Image Include="Res\_Trifenil.bmp" />
+    <Image Include="Res\_TrifenilRotacion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

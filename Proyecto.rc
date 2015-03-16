@@ -1,0 +1,1594 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Mexican) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TRIFENILAVERTURA    BITMAP  DISCARDABLE     "RES\\TrifenilAvertura.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_OPENFILE        "Abrir"
+    AFX_IDS_SAVEFILE        "Guardar como"
+    AFX_IDS_ALLFILTER       "Todos los archivos (*.*)"
+    AFX_IDS_UNTITLED        "Sin título"
+    AFX_IDS_UNNAMED_FILE    "un archivo sin nombre"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_HIDE            "&Ocultar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_NO_ERROR_AVAILABLE "No hay ningún mensaje de error disponible."
+    AFX_IDS_NOT_SUPPORTED_EXCEPTION "Se intentó una operación no permitida."
+    AFX_IDS_RESOURCE_EXCEPTION "Rcurso necesario no disponible."
+    AFX_IDS_MEMORY_EXCEPTION "No hay suficiente memoria."
+    AFX_IDS_USER_EXCEPTION  "Se encontr¢ un error desconocido."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_INVALID_FILENAME "Nombre de archivo no válido."
+    AFX_IDP_FAILED_TO_OPEN_DOC "Imposible abrir documento."
+    AFX_IDP_FAILED_TO_SAVE_DOC "Imposible guardar documento."
+    AFX_IDP_ASK_TO_SAVE     "¿Guardar cambios a %1?"
+    AFX_IDP_FAILED_TO_CREATE_DOC "Imposible crear el documento vacío."
+    AFX_IDP_FILE_TOO_LARGE  "Archivo demasiado grande."
+    AFX_IDP_FAILED_TO_START_PRINT "Imposible iniciar impresión."
+    AFX_IDP_FAILED_TO_LAUNCH_HELP "Imposible ejecutar la ayuda."
+    AFX_IDP_INTERNAL_FAILURE "Error interno de la aplicación."
+    AFX_IDP_COMMAND_FAILURE "Falló el comando."
+    AFX_IDP_FAILED_MEMORY_ALLOC 
+                            "No hay suficiente memoria para efectuar la operación."
+    AFX_IDP_UNREG_DONE      "Se quitaron las entradas del Registro del sistema y eliminaron los archivos INI (si existían)."
+    AFX_IDP_UNREG_FAILURE   "No se quitaron todas las entradas del Registro (o archivo INI)."
+    AFX_IDP_DLL_LOAD_FAILED "Este programa requiere el archivo %s, pero no está en este sistema."
+    AFX_IDP_DLL_BAD_VERSION "This program is linked to the missing export %s in the file %s. This machine may have an incompatible version of %s."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_FAILED_TO_NOTIFY 
+                            "%1\nImposible registrar el documento.\nPuede que el documento ya esté abierto."
+    AFX_IDP_GET_NOT_SUPPORTED 
+                            "Imposible leer una propiedad de sólo escritura."
+    AFX_IDP_SET_NOT_SUPPORTED 
+                            "Imposible escribir en una propiedad de sólo lectura."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_FAILED_INVALID_FORMAT "Formato de archivo no esperado."
+    AFX_IDP_FAILED_INVALID_PATH 
+                            "%1\nImposible encontrar este archivo.\nCompruebe que la ruta y el nombre de archivo son correctos"
+    AFX_IDP_FAILED_DISK_FULL "La unidad de disco de destino está llena."
+    AFX_IDP_FAILED_ACCESS_READ 
+                            "Imposible leer de %1, alguien más lo ha abierto."
+    AFX_IDP_FAILED_ACCESS_WRITE 
+                            "Imposible escribir en %1, es de sólo lectura o alguien más lo ha abierto."
+    AFX_IDP_FAILED_IO_ERROR_READ "Error inesperado al leer %1."
+    AFX_IDP_FAILED_IO_ERROR_WRITE "Error inesperado al escribir en %1."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_PARSE_INT       "Introduzca un número entero."
+    AFX_IDP_PARSE_REAL      "Introduzca un número."
+    AFX_IDP_PARSE_INT_RANGE "Introduzca un número entero entre %1 y %2."
+    AFX_IDP_PARSE_REAL_RANGE "Introduzca un número entre %1 y %2."
+    AFX_IDP_PARSE_STRING_SIZE "No introduzca más de %1 caracteres."
+    AFX_IDP_PARSE_RADIO_BUTTON "Seleccione un botón."
+    AFX_IDP_PARSE_BYTE      "Introduzca un número entero entre 0 y 255."
+    AFX_IDP_PARSE_UINT      "Introduzca un número entero positivo."
+    AFX_IDP_PARSE_DATETIME  "Introduzca una fecha y/o una hora."
+    AFX_IDP_PARSE_CURRENCY  "Introduzca una moneda."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PASTELINKEDTYPE "%s vinculado"
+    AFX_IDS_UNKNOWNTYPE     "Tipo desconocido"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_FILE_NONE       "No ha ocurrido ningún error."
+    AFX_IDP_FILE_GENERIC    "Error desconocido al acceder a %1."
+    AFX_IDP_FILE_NOT_FOUND  "No se encontró %1."
+    AFX_IDP_FILE_BAD_PATH   "%1 contiene una ruta no válida."
+    AFX_IDP_FILE_TOO_MANY_OPEN 
+                            "Imposible abrir %1, hay demasiados archivos abiertos."
+    AFX_IDP_FILE_ACCESS_DENIED "Acceso denegado a %1."
+    AFX_IDP_FILE_INVALID_FILE "Controlador no válido asociado a %1."
+    AFX_IDP_FILE_REMOVE_CURRENT 
+                            "Imposible eliminar %1 porque es el directorio actual."
+    AFX_IDP_FILE_DIR_FULL   "Imposible crear %1 porque el directorio está lleno."
+    AFX_IDP_FILE_BAD_SEEK   "Fin de búsqueda en %1 "
+    AFX_IDP_FILE_HARD_IO    "Error de E/S de hardware al acceder a %1."
+    AFX_IDP_FILE_SHARING    "Violación de acceso compartido al acceder a %1."
+    AFX_IDP_FILE_LOCKING    "Violación de bloqueo al acceder %1. "
+    AFX_IDP_FILE_DISKFULL   "Disco lleno al acceder a %1."
+    AFX_IDP_FILE_EOF        "Se intentó acceder a %1 más allá del final."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_ARCH_NONE       "No ha ocurrido ningún error."
+    AFX_IDP_ARCH_GENERIC    "Error desconocido al acceder a %1."
+    AFX_IDP_ARCH_READONLY   "Se intentó escribir en %1 mientras se lo estaba leyendo."
+    AFX_IDP_ARCH_ENDOFFILE  "Se intentó acceder a %1 más allá del final."
+    AFX_IDP_ARCH_WRITEONLY  "Se intentó leer de %1 mientras estaba escribiendo."
+    AFX_IDP_ARCH_BADINDEX   "%1 tiene un formato incorrecto."
+    AFX_IDP_ARCH_BADCLASS   "%1 contiene un objeto inesperado."
+    AFX_IDP_ARCH_BADSCHEMA  "%1 contiene un esquema incorrecto."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDP_FAILED_MAPI_LOAD 
+                            "Imposible cargar el soporte del sistema de correo."
+    AFX_IDP_INVALID_MAPI_DLL "La DLL del sistema de correo no es válida."
+    AFX_IDP_FAILED_MAPI_SEND "Enviar correo no envió el mensaje."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_OCC_SCALEUNITS_PIXELS "píxeles"
+END
+
+#endif    // Spanish (Mexican) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASH              BITMAP  DISCARDABLE     "Res\\Splsh16.bmp"
+IDB_MINIANILLO          BITMAP  DISCARDABLE     "RES\\_AnilloFenil.bmp"
+IDB_MINIBIFENIL         BITMAP  DISCARDABLE     "RES\\_Bifenil.bmp"
+IDB_MINITRIFENIL        BITMAP  DISCARDABLE     "RES\\_Trifenil.bmp"
+IDB_EJEANILLOFENIL      BITMAP  DISCARDABLE     "RES\\_AnilloFenilRotacion.bmp"
+IDB_EJEBIFENIL          BITMAP  DISCARDABLE     "RES\\_BifenilRotacion.bmp"
+IDB_EJETRIFENIL         BITMAP  DISCARDABLE     "RES\\_TrifenilRotacion.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_3DTOOLBAR           BITMAP  DISCARDABLE     "res\\Toolbar1.bmp"
+IDB_MAINFRAMEBAR        BITMAP  DISCARDABLE     "res\\MainFrm.bmp"
+IDB_ANILLOFENIL         BITMAP  DISCARDABLE     "Res\\AnilloFenil.bmp"
+IDB_BIFENIL             BITMAP  DISCARDABLE     "Res\\Bifenil.bmp"
+IDB_TRIFENIL            BITMAP  DISCARDABLE     "Res\\Trifenil.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PREFERENCIASPAGE2 DIALOG DISCARDABLE  0, 0, 200, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Opciones de Cálculo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Máximo Error Permitido",IDC_STATIC,16,12,72,8
+    LTEXT           "Límite de datos a imprimir",IDC_STATIC,16,27,80,8
+    GROUPBOX        "Sistema de Ecuaciones",IDC_STATIC,7,46,186,35
+    LTEXT           "Ignorar Valores Menores a ±",IDC_STATIC,16,61,90,8
+    EDITTEXT        IDC_ERROR,114,9,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIMITE,114,26,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALORES,114,57,66,14,ES_AUTOHSCROLL
+END
+
+IDD_INTERACCOBSERVADAPAGE2 DIALOG DISCARDABLE  0, 0, 229, 175
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LCREPORT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,
+                    7,215,160
+END
+
+IDD_INTERACCELEGIDASPAGE1 DIALOG DISCARDABLE  0, 0, 233, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Simetrias D2 - D4"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Interacciones para el Cálculo de Tzz, Txx - Tyy y Txy",
+                    IDC_STATIC,7,7,219,83
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,47,95,12
+    COMBOBOX        IDC_SELECC1,129,24,69,33,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELECC2,129,45,69,32,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELECC3,129,65,69,39,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,67,95,12
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,27,95,12
+    LTEXT           "NOTA :",IDC_STATIC,18,96,25,8
+    LTEXT           "Las dos primeras Interaciones forman parte del calculo en Simetria D2 y D4, mientras que la  ultima solo interviene en D2.",
+                    IDC_STATIC,49,96,162,24
+END
+
+IDD_INTERACCELEGIDASPAGE2 DIALOG DISCARDABLE  0, 0, 233, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sin Simetria"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Interacciónes para el Calculo de Rho, Tzz y Txx - Tyy",
+                    IDC_STATIC,7,5,219,64
+    LTEXT           "Interacción A",IDC_STATIC,29,19,43,8
+    LTEXT           "Interacción B",IDC_STATIC,29,35,43,8
+    LTEXT           "Interacción C",IDC_STATIC,29,52,43,8
+    COMBOBOX        IDC_INTA,129,16,69,40,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_INTB,129,33,69,44,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_INTC,130,50,69,43,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Interacciones para el Cálculo de Tyz, Tzx y Txy",
+                    IDC_STATIC,7,72,219,66
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,103,95,12
+    COMBOBOX        IDC_SELECC1,129,84,69,33,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELECC2,129,101,69,32,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELECC3,129,118,69,36,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,120,95,12
+    LTEXT           "Interacción Seleccionada",IDC_STATIC,29,87,95,12
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 233, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de Aplicación NMR..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,9,11,20,20,SS_NOTIFY
+    LTEXT           "Aplicación NMR Versión 1.0",IDC_STATIC,40,11,90,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright © 1998. All rights reserved.",IDC_STATIC,40,
+                    24,118,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,176,7,50,15,WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,34,41,168,1
+    LTEXT           "Memoria Física disponible:",IDC_STATIC,41,48,87,8,NOT 
+                    WS_GROUP
+    LTEXT           "(mem. disponible)",IDC_PHYSICAL_MEM,132,48,93,8,NOT 
+                    WS_GROUP
+    LTEXT           "Espacio disponible:",IDC_STATIC,41,61,120,8,NOT 
+                    WS_GROUP
+    LTEXT           "(espacio en disco)",IDC_DISK_SPACE,132,61,94,8,NOT 
+                    WS_GROUP
+END
+
+IDD_LIST DIALOG DISCARDABLE  0, 0, 268, 150
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Actualizar la lista de partes rígidas creadas"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,211,64,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,211,86,50,14
+    LTEXT           "&Seleccione parte(s) rígida(s):",IDC_LIST_STATIC,7,7,
+                    120,11
+    PUSHBUTTON      "&Eliminar",IDC_LIST_ELIMINAR,211,42,50,14
+    PUSHBUTTON      "&Activar",IDC_LIST_ACTIVAR,211,20,50,14
+    LISTBOX         IDC_LIST_LIST1,7,21,188,119,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_RECTA DIALOG DISCARDABLE  0, 0, 278, 192
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Lados",IDC_STATIC,15,15,20,8
+    COMBOBOX        IDC_LADO_ELEGIDO,56,14,64,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         210,IDC_IMAGEN,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_RIGHTJUST | SS_REALSIZEIMAGE | WS_BORDER,136,7,135,
+                    114
+    LTEXT           "Longitud",IDC_STATIC,15,35,27,8
+    EDITTEXT        IDC_LONGITUD,57,33,62,12,ES_AUTOHSCROLL
+    GROUPBOX        "En Coordenadas Polares",IDC_STATIC,8,58,120,54
+    LTEXT           "Teta ",IDC_STATIC,16,74,17,8
+    EDITTEXT        IDC_TETA,57,72,61,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Phi",IDC_STATIC,16,92,11,8
+    EDITTEXT        IDC_PHI,57,92,61,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "En Coordenadas Cartesianas",IDC_STATIC,7,125,264,60
+    LTEXT           "X",IDC_STATIC,82,134,8,8
+    LTEXT           "Y",IDC_STATIC,155,134,8,8
+    LTEXT           "Z",IDC_STATIC,226,134,8,8
+    LTEXT           "Punto ",IDC_STATIC,15,147,20,8
+    EDITTEXT        IDC_X1,56,144,61,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Y1,128,144,61,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Z1,199,144,61,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Punto",IDC_STATIC,15,165,18,8
+    EDITTEXT        IDC_X2,56,164,61,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Y2,128,164,61,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Z2,199,164,61,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_ANGULO DIALOG DISCARDABLE  0, 0, 298, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Angulo",IDC_STATIC,23,23,22,8
+    COMBOBOX        IDC_ANG_ELEGIDO,69,21,64,51,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         210,IDC_IMAGEN,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_RIGHTJUST | SS_REALSIZEIMAGE | WS_BORDER,163,7,128,
+                    108
+    GROUPBOX        "",IDC_STATIC,15,38,128,69
+    LTEXT           "Valor",IDC_STATIC,23,52,17,8
+    EDITTEXT        IDC_VALOR,68,49,65,13,ES_AUTOHSCROLL
+    LTEXT           "Estado",IDC_STATIC,23,69,23,8
+    COMBOBOX        IDC_ESTADO,68,67,66,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Parámetro",IDC_STATIC,23,88,33,8
+    COMBOBOX        IDC_PARAMETRO,68,86,65,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Datos",IDC_STATIC,7,5,146,110
+END
+
+IDD_EJE DIALOG DISCARDABLE  0, 0, 298, 125
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Datos",IDC_STATIC,7,7,146,110
+    LTEXT           "Angulo",IDC_STATIC,23,25,22,8
+    EDITTEXT        IDC_ETQT,69,22,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,15,39,128,69
+    LTEXT           "Valor",IDC_STATIC,23,52,17,8
+    EDITTEXT        IDC_VALOR,68,50,65,13,ES_AUTOHSCROLL
+    LTEXT           "Estado",IDC_STATIC,23,71,23,8
+    COMBOBOX        IDC_ESTADO,68,68,66,42,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Parámetro",IDC_STATIC,23,90,33,8
+    COMBOBOX        IDC_PARAMETRO,68,88,65,42,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         213,IDC_IMAGEN,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_RIGHTJUST | SS_REALSIZEIMAGE | WS_BORDER,165,7,126,
+                    111
+END
+
+IDD_3DDATA DIALOG DISCARDABLE  0, 0, 309, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Ubicación de las Caras",IDC_STATIC,7,7,128,77
+    LTEXT           "Frontal",IDC_STATIC,18,25,22,8
+    EDITTEXT        IDC_CARA_FRONTAL,61,24,57,12,ES_AUTOHSCROLL
+    LTEXT           "Posterior",IDC_STATIC,18,43,28,8
+    EDITTEXT        IDC_CARA_POSTERIOR,61,42,57,12,ES_AUTOHSCROLL
+    LTEXT           "Ang. Persp.",IDC_STATIC,18,62,36,8
+    EDITTEXT        IDC_ANG_PERSPECTIVA,61,60,57,12,ES_AUTOHSCROLL
+    GROUPBOX        "Valores de Rotación",IDC_STATIC,148,7,155,77
+    LTEXT           "Eje X",IDC_STATIC,159,25,17,8
+    EDITTEXT        IDC_VALOR_EJEX,196,24,49,12,ES_AUTOHSCROLL
+    LTEXT           "Incrementos",IDC_STATIC,252,14,38,8
+    EDITTEXT        IDC_ROTAR_EJEX,254,24,33,12,ES_AUTOHSCROLL
+    LTEXT           "Eje Y",IDC_STATIC,159,43,17,8
+    EDITTEXT        IDC_VALOR_EJEY,196,42,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTAR_EJEY,254,42,33,12,ES_AUTOHSCROLL
+    LTEXT           "Eje Z",IDC_STATIC,159,61,17,8
+    EDITTEXT        IDC_VALOR_EJEZ,196,60,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTAR_EJEZ,254,60,33,12,ES_AUTOHSCROLL
+    LTEXT           "Valor de Aproximación o Alejamiento",IDC_STATIC,98,93,
+                    115,8
+    EDITTEXT        IDC_ZOOM,229,91,57,12,ES_AUTOHSCROLL
+END
+
+IDD_ICONOS DIALOGEX 0, 0, 109, 98
+STYLE DS_SETFOREGROUND | DS_3DLOOK | WS_CHILD
+EXSTYLE WS_EX_TRANSPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_INTERACCCOMPONENTS DIALOG DISCARDABLE  0, 0, 219, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Actualizar las interacciones conformantes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Nuevo",IDNUEVO,162,13,50,14
+    PUSHBUTTON      "Guardar",IDGUARDAR,162,31,50,14
+    GROUPBOX        "Interacción Conformante",IDC_STATIC,7,35,146,52
+    LTEXT           "Etiqueta Primer Polo",IDC_STATIC,18,49,64,8
+    COMBOBOX        IDC_ETQTPOLO1,97,47,40,39,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Etiqueta Segundo Polo",IDC_STATIC,18,68,74,8
+    COMBOBOX        IDC_ETQTPOLO2,97,65,40,36,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST,7,93,146,45,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Eliminar",IDELIMINAR,162,49,50,14
+    PUSHBUTTON      "Cerrar",IDCANCEL,162,67,50,14
+    LTEXT           "Interacción Base",IDC_STATIC,17,15,54,8
+    COMBOBOX        IDC_INTRCBASE,95,13,40,33,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,3,146,29
+END
+
+IDD_PARAMVARIABLEPAGE1 DIALOG DISCARDABLE  0, 0, 228, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Datos",IDC_STATIC,7,6,151,114
+    LTEXT           "Etiqueta",IDC_STATIC,22,23,27,8
+    EDITTEXT        IDC_ETQT,74,20,65,15,ES_AUTOHSCROLL
+    GROUPBOX        "Valor",IDC_STATIC,16,40,133,72
+    LTEXT           "Inicio",IDC_STATIC,27,55,17,8
+    EDITTEXT        IDC_INICIO,73,52,65,15,ES_AUTOHSCROLL
+    LTEXT           "Fin",IDC_STATIC,27,73,10,8
+    EDITTEXT        IDC_FIN,73,70,65,15,ES_AUTOHSCROLL
+    LTEXT           "Incremento",IDC_STATIC,27,91,36,8
+    EDITTEXT        IDC_INCREMENTO,73,88,65,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Nuevo",IDNUEVO,171,11,50,14
+    PUSHBUTTON      "Guardar",IDGUARDAR,171,29,50,14
+    PUSHBUTTON      "Eliminar",IDELIMINAR,171,47,50,14
+END
+
+IDD_LISTCTRL DIALOG DISCARDABLE  0, 0, 228, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,
+                    7,213,113
+END
+
+IDD_ENLACEPAGE1 DIALOG DISCARDABLE  0, 0, 274, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Lados",IDC_STATIC,15,10,20,8
+    COMBOBOX        IDC_ENLACE_ELEGIDO,57,8,63,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,23,120,64
+    LTEXT           "Longitud",IDC_STATIC,17,37,27,8
+    EDITTEXT        IDC_LONGITUD,56,34,62,12,ES_AUTOHSCROLL
+    LTEXT           "Estado",IDC_STATIC,17,53,23,8
+    COMBOBOX        IDC_ESTADO,55,50,63,59,CBS_DROPDOWNLIST | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,88,120,54
+    LTEXT           "Tipo de lado o Spin asociado",IDC_STATIC,15,98,48,17
+    COMBOBOX        IDC_TIPO,65,101,53,33,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Etiqueta del Spin",IDC_STATIC,15,119,39,16
+    EDITTEXT        IDC_ETIQUETA,65,122,53,13,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         205,IDC_IMAGEN,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_RIGHTJUST | SS_REALSIZEIMAGE | WS_BORDER,133,7,134,
+                    136
+    LTEXT           "Parámetro",IDC_STATIC,17,70,33,8
+    COMBOBOX        IDC_ETQTPARAM,55,67,63,59,CBS_DROPDOWNLIST | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ENLACEPAGE2 DIALOG DISCARDABLE  0, 0, 274, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Datos Generales",IDC_STATIC,8,7,119,60
+    LTEXT           "Lados",IDC_STATIC,19,25,20,8
+    EDITTEXT        IDC_LADOS,56,23,59,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Longitud",IDC_STATIC,19,46,27,8
+    EDITTEXT        IDC_LONGITUD,56,44,59,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "En Coordenadas Polares",IDC_STATIC,140,7,126,60
+    LTEXT           "Teta",IDC_STATIC,151,25,17,8
+    EDITTEXT        IDC_TETA,192,23,61,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Phi",IDC_STATIC,151,46,11,8
+    EDITTEXT        IDC_PHI,192,44,61,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "En Coordenadas Cartesianas",IDC_STATIC,7,73,259,71
+    LTEXT           "Eje X",IDC_STATIC,80,88,18,8
+    LTEXT           "Eje Y",IDC_STATIC,147,88,18,8
+    LTEXT           "Eje Z",IDC_STATIC,216,88,18,8
+    LTEXT           "Punto Inicial",IDC_STATIC,17,103,40,8
+    EDITTEXT        IDC_X1,63,100,57,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Y1,129,100,57,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Z1,196,100,57,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Punto Final",IDC_STATIC,17,123,36,8
+    EDITTEXT        IDC_X2,63,121,57,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Y2,129,121,57,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Z2,196,121,57,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 186, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancelar",IDCANCEL,67,42,50,14
+    CONTROL         "Progress1",IDC_PROGDLG_PROGRESS,"msctls_progress32",
+                    WS_BORDER,17,18,151,13
+    LTEXT           " 0 %",IDC_PROGDLG_PERCENT,83,7,18,8
+END
+
+IDD_PARAMETROPAGE1 DIALOG DISCARDABLE  0, 0, 224, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Datos",IDC_STATIC,7,6,151,79
+    LTEXT           "Etiqueta",IDC_STATIC,22,23,27,8
+    EDITTEXT        IDC_ETQT,74,20,65,15,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Valor",IDC_STATIC,16,40,133,36
+    LTEXT           "Actual",IDC_STATIC,27,55,21,8
+    EDITTEXT        IDC_ACTUAL,73,52,65,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Nuevo",IDNUEVO,167,11,50,14,WS_DISABLED
+    PUSHBUTTON      "Guardar",IDGUARDAR,167,29,50,14
+    PUSHBUTTON      "Eliminar",IDELIMINAR,167,47,50,14,WS_DISABLED
+END
+
+IDD_PARAMETROPAGE2 DIALOG DISCARDABLE  0, 0, 224, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,
+                    7,209,79
+END
+
+IDD_PROPIEDADES DIALOG DISCARDABLE  0, 0, 276, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Propiedades"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Proyecto:",IDC_STATIC,21,11,31,8
+    CONTROL         "Carpeta:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,25,28,28,8
+    CONTROL         "Título",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,32,46,20,8
+    EDITTEXT        IDC_TITULO,63,43,149,14,ES_AUTOHSCROLL
+    CONTROL         "Asunto",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,30,66,23,8
+    EDITTEXT        IDC_ASUNTO,63,63,149,14,ES_AUTOHSCROLL
+    CONTROL         "Experimentador",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,6,86,50,8
+    EDITTEXT        IDC_CREADOR,63,83,149,14,ES_AUTOHSCROLL
+    CONTROL         "Descripción",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,17,107,38,8
+    EDITTEXT        IDC_DESCRIPCION,63,104,149,42,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,219,7,50,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Cancelar",IDCANCEL,219,24,50,14
+    EDITTEXT        IDC_NOMBREPROY,63,11,149,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_CARPETA,63,28,149,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+END
+
+IDD_ENLACEPAGE3 DIALOG DISCARDABLE  0, 0, 274, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Mas Info..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Phi",IDC_STATIC,19,25,11,8
+    EDITTEXT        IDC_PHI,56,23,59,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Longitud",IDC_STATIC,19,46,27,8
+    LTEXT           "Teta",IDC_STATIC,151,25,17,8
+    EDITTEXT        IDC_LONGITUD,56,44,59,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TETA,192,23,61,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Punto Final",IDC_STATIC,7,77,259,62
+    GROUPBOX        "Punto Inicial",IDC_STATIC,7,7,259,60
+    LTEXT           "Phi",IDC_STATIC,18,97,11,8
+    EDITTEXT        IDC_PHI2,54,94,59,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Longitud",IDC_STATIC,18,118,27,8
+    LTEXT           "Teta",IDC_STATIC,150,97,17,8
+    EDITTEXT        IDC_LONGITUD2,54,116,59,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TETA2,190,94,61,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_LISTCTRL2 DIALOG DISCARDABLE  0, 0, 224, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,
+                    7,209,99
+    PUSHBUTTON      "&Anteriores",IDC_ANTERIORES,61,113,49,15,WS_DISABLED
+    PUSHBUTTON      "&Siguientes",IDC_SIGUIENTES,113,113,49,15
+END
+
+IDD_PREFERENCIASPAGE1 DIALOG DISCARDABLE  0, 0, 214, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Actualizar preferencias de la aplicación"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Unid. Predeterminadas de Medida",IDC_STATIC,7,7,145,65
+    LTEXT           "Distancias",IDC_STATIC,15,22,34,8
+    COMBOBOX        IDC_UNID_DISTANCIA,67,20,75,31,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Angulos",IDC_STATIC,15,38,26,8
+    COMBOBOX        IDC_UNID_ANGULO,67,36,75,34,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Interacciones",IDC_STATIC,15,54,44,8
+    COMBOBOX        IDC_UNID_INTERACC,67,52,75,32,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Simetría ",IDC_STATIC,155,7,52,65
+    CONTROL         "D4",IDC_SIMETRIA,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,161,24,25,10
+    CONTROL         "D2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,
+                    161,37,25,10
+    CONTROL         "Ninguna",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,161,50,43,10
+END
+
+IDD_INTERACCOBSERVADAPAGE1 DIALOG DISCARDABLE  0, 0, 229, 175
+STYLE DS_3DLOOK | WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Datos",IDC_STATIC,7,5,155,94
+    LTEXT           "Primer Polo",IDC_STATIC,30,33,36,8
+    COMBOBOX        IDC_ETQTPOLO1,96,30,40,39,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Segundo Polo",IDC_STATIC,30,51,46,8
+    COMBOBOX        IDC_ETQTPOLO2,96,49,40,36,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Valor Observado",IDC_STATIC,27,80,54,8
+    EDITTEXT        IDC_VALOROBSERVADO,97,78,40,12,ES_AUTOHSCROLL
+    CONTROL         "Tzz",IDC_TZZ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    120,27,10
+    CONTROL         "Txx - Tyy",IDC_TXXMINUSTYY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,133,45,10
+    CONTROL         "Tyz",IDC_TYZ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    147,27,10
+    CONTROL         "Tzx",IDC_TZX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,
+                    119,27,10
+    CONTROL         "Txy",IDC_TXY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,
+                    133,27,10
+    GROUPBOX        "Tensores no diagonalizados",IDC_STATIC,7,107,154,60
+    GROUPBOX        "Etiquetas",IDC_STATIC,18,17,131,53
+    PUSHBUTTON      "Nuevo",IDNUEVO,172,9,50,14
+    PUSHBUTTON      "Guardar",IDGUARDAR,172,27,50,14
+    PUSHBUTTON      "Eliminar",IDELIMINAR,172,45,50,14
+END
+
+IDD_PREFERENCIASPAGE3 DIALOG DISCARDABLE  0, 0, 201, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Definir eje de simetría"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Puntos del eje de simetría",IDC_STATIC,7,7,187,58
+    LTEXT           "Inicial",IDC_STATIC,15,33,19,8
+    EDITTEXT        IDC_EJEX1,38,32,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EJEY1,88,32,50,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EJEZ1,138,32,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EJEX2,38,43,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EJEY2,88,43,50,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EJEZ2,138,43,50,12,ES_AUTOHSCROLL
+    LTEXT           "Final",IDC_STATIC,15,45,16,8
+    LTEXT           "Eje X",IDC_STATIC,55,20,18,8
+    LTEXT           "Eje Y",IDC_STATIC,104,19,18,8
+    LTEXT           "Eje Z",IDC_STATIC,154,19,18,8
+    COMBOBOX        IDC_PLANO,138,71,50,36,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Plano de visualización",IDC_STATIC,48,73,71,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PREFERENCIASPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_INTERACCOBSERVADAPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_INTERACCELEGIDASPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_INTERACCELEGIDASPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_RECTA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_ANGULO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_EJE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_3DDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_ICONOS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 101
+    END
+
+    IDD_INTERACCCOMPONENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_PARAMVARIABLEPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_LISTCTRL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_ENLACEPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_ENLACEPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_PARAMETROPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PARAMETROPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PROPIEDADES, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_ENLACEPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_LISTCTRL2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_PREFERENCIASPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_INTERACCOBSERVADAPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_PREFERENCIASPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Proyecto.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Proyecto.ico"
+IDR_PROYECTYPE          ICON    DISCARDABLE     "res\\ProyectoDoc.ico"
+IDI_ANILLOFENIL         ICON    DISCARDABLE     "res\\AnilloFe.ico"
+IDI_BIFENIL             ICON    DISCARDABLE     "res\\Bifenil.ico"
+IDI_TRIFENIL            ICON    DISCARDABLE     "res\\Trifenil.ico"
+IDI_PARAM               ICON    DISCARDABLE     "res\\Param.ico"
+IDI_INTERACC            ICON    DISCARDABLE     "res\\Interacc.ico"
+IDI_TENSOR              ICON    DISCARDABLE     "res\\Tensor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_BUTTON32870
+    BUTTON      ID_BUTTON32865
+END
+
+IDR_3DTOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_VIEW_AXIS
+    BUTTON      ID_AXIS_X
+    BUTTON      ID_AXIS_Y
+    BUTTON      ID_AXIS_Z
+    SEPARATOR
+    BUTTON      ID_ROTATE_POSITIVE
+    BUTTON      ID_ROTATE_NEGATIVE
+    SEPARATOR
+    BUTTON      ID_APPROACH
+    BUTTON      ID_SEPARATE
+    SEPARATOR
+    BUTTON      ID_3D_EJECUTAR
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_ANILLOFENIL MENU DISCARDABLE 
+BEGIN
+    POPUP "&Anillo Fenil"
+    BEGIN
+        MENUITEM "Eje &rotación",               ID_ANILLOFENIL_EJEROTACION
+        MENUITEM SEPARATOR
+        POPUP "&Angulos"
+        BEGIN
+            MENUITEM "&Externos",                   ID_ANILLOFENIL_ANGULOS_EXTERNOS
+
+            MENUITEM "&Internos",                   ID_ANILLOFENIL_ANGULOS_INTERNOS
+
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Lados"
+        BEGIN
+            MENUITEM "&Externos",                   ID_ANILLOFENIL_LADOS_EXTERNOS
+
+            MENUITEM "&Internos",                   ID_ANILLOFENIL_LADOS_INTERNOS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Información",                ID_ANILLOFENIL_INFORMACION
+    END
+END
+
+IDR_BIFENIL MENU DISCARDABLE 
+BEGIN
+    POPUP "&Bifenil"
+    BEGIN
+        MENUITEM "Eje &rotación",               ID_BIFENIL_EJEROTACION
+        MENUITEM SEPARATOR
+        MENUITEM "&Angulos",                    ID_BIFENIL_ANGULOS
+        MENUITEM SEPARATOR
+        MENUITEM "&Lados",                      ID_BIFENIL_LADOS
+        MENUITEM SEPARATOR
+        MENUITEM "&Información",                ID_BIFENIL_INFORMACION
+    END
+END
+
+IDR_TRIFENIL MENU DISCARDABLE 
+BEGIN
+    POPUP "&Trifenil"
+    BEGIN
+        MENUITEM "Eje &rotación",               ID_TRIFENIL_EJEROTACION
+        MENUITEM SEPARATOR
+        POPUP "&Angulos "
+        BEGIN
+            MENUITEM "Angulos al eje de &proyección", 
+                                                    ID_TRIFENIL_ANGULOS_ANGULOSALEJEDEPROYECCION
+
+            MENUITEM "Angulos entre los &lados",    ID_TRIFENIL_ANGULOS_ANGULOSENTRELOSLADOS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Lados",                      ID_TRIFENIL_LADOS
+        MENUITEM SEPARATOR
+        MENUITEM "&Información",                ID_TRIFENIL_INFORMACION
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+A",           ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar\tCtrl+G",            ID_FILE_SAVE
+        MENUITEM "Guardar c&omo...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "P&ropiedades",                ID_ARCHIVO_PROPIEDADES
+        MENUITEM SEPARATOR
+        MENUITEM "Pr&eparar Pagina",            ID_FILE_PAGE_SETUP
+        MENUITEM "&Imprimir...\tCtrl+I",        ID_FILE_PRINT
+        MENUITEM "&Presentación preliminar",    ID_FILE_PRINT_PREVIEW
+        MENUITEM "Con&figurar impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Archivo reciente",            ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    POPUP "&Editar"
+    BEGIN
+        MENUITEM "&Deshacer\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM "&Repetir\tCtrl+Y",            ID_EDITAR_REPETIR, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Cor&tar\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "&Copiar\tCtrl+C",             ID_EDIT_COPY
+        MENUITEM "&Pegar\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Borrar\tSupr",               ID_EDITAR_BORRAR, GRAYED
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra principal",            ID_VER_BARRAPRINCIPAL
+        MENUITEM "B&arra de  modo 3D",          ID_VER_BARRA3D
+        MENUITEM "Barra de &estado",            ID_VIEW_STATUS_BAR
+        MENUITEM "Barra de &partes rígidas",    ID_VER_BARRAPARTES, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Cuadrícula",                 ID_VER_CUADRICULA, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Modo diseño\tCtrl+M",        ID_VER_GDI
+        MENUITEM "Mo&do 3D\tCtrl+D",            ID_VER_OPENGL
+        MENUITEM SEPARATOR
+        MENUITEM "&Lista de partes rígidas",    ID_VER_LISTAPARTES
+        MENUITEM "Lista de &resultados",        ID_VER_LISTARESULTADOS
+    END
+    POPUP "&Insertar"
+    BEGIN
+        MENUITEM "&Anillo fenil",               ID_INSERTAR_ANILLO
+        MENUITEM "&Bifenil",                    ID_INSERTAR_BIFENIL
+        MENUITEM "&Trifenil",                   ID_INSERTAR_TRIFENIL
+        MENUITEM SEPARATOR
+        MENUITEM "&Interacciones observadas",   ID_INSERTAR_INTERACOBS
+        MENUITEM "I&nteracciones componentes",  ID_INSERTAR_INTERACCOMP
+        MENUITEM "Inte&racciones de cálculo",   ID_INSERTAR_INTERACCIONESDEDISTORCION
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Parámetros variables",       ID_INSERTAR_VARIABLES
+    END
+    POPUP "&Calcular"
+    BEGIN
+        MENUITEM "&Barrido",                    ID_CALCULAR_BARRIDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Combinación dada",           ID_CALCULAR_COMBDADA
+    END
+    POPUP "3&D"
+    BEGIN
+        MENUITEM "Eje &X",                      ID_AXIS_X
+        MENUITEM "Eje &Y",                      ID_AXIS_Y
+        MENUITEM "Eje &Z",                      ID_AXIS_Z
+        MENUITEM SEPARATOR
+        MENUITEM "Rotar &positivamente",        ID_ROTATE_POSITIVE
+        MENUITEM "Rotar &negativamente",        ID_ROTATE_NEGATIVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Aproximar",                  ID_APPROACH
+        MENUITEM "A&lejar",                     ID_SEPARATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Ejecutar",                   ID_3D_EJECUTAR
+    END
+    POPUP "&Opciones"
+    BEGIN
+        MENUITEM "&Datos 3D",                   ID_OPCIONES_DATOS3D
+        MENUITEM "&Preferencias",               ID_OPCIONES_PREFERENCIAS
+        MENUITEM SEPARATOR
+        POPUP "&Reportes"
+        BEGIN
+            MENUITEM "&Conformación",               ID_OPCIONES_REPORTES_CONFORMAC
+
+            MENUITEM SEPARATOR
+            MENUITEM "Resultados - &Error Acumulado", 
+                                                    ID_OPCIONES_REPORTES_RESULTSXERROR
+
+            MENUITEM "Resultados - &MAD",           ID_OPCIONES_REPORTES_RESULTSXMAD
+
+        END
+    END
+    POPUP "Ay&uda"
+    BEGIN
+        MENUITEM "&Temas de ayuda",             ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Aplicación NMR...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_FILE_ABRIR,          VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_VER_OPENGL,          VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_VER_GDI,             VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NUEVO,          VIRTKEY, CONTROL, NOINVERT
+    "U",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDITAR_BORRAR,       VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "CompanyName", "Thesis Software Corp.\0"
+            VALUE "FileDescription", "Aplicación NMR - MFC Proyecto\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "Proyecto\0"
+            VALUE "LegalCopyright", "Copyright © 1998. All rights reserved.\0"
+            VALUE "OriginalFilename", "Proyecto.EXE\0"
+            VALUE "ProductName", "Aplicación NMR\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ANGULO DLGINIT
+BEGIN
+    IDC_ESTADO, 0x403, 5, 0
+0x6946, 0x6f6a, "\000" 
+    IDC_ESTADO, 0x403, 9, 0
+0x6156, 0x6972, 0x6261, 0x656c, "\000" 
+    IDC_PARAMETRO, 0x403, 2, 0
+0x0020, 
+    0
+END
+
+IDD_EJE DLGINIT
+BEGIN
+    IDC_ESTADO, 0x403, 5, 0
+0x6946, 0x6f6a, "\000" 
+    IDC_ESTADO, 0x403, 9, 0
+0x6156, 0x6972, 0x6261, 0x656c, "\000" 
+    0
+END
+
+IDD_ENLACEPAGE1 DLGINIT
+BEGIN
+    IDC_ESTADO, 0x403, 5, 0
+0x6946, 0x6f6a, "\000" 
+    IDC_ESTADO, 0x403, 9, 0
+0x6156, 0x6972, 0x6261, 0x656c, "\000" 
+    IDC_TIPO, 0x403, 8, 0
+0x694e, 0x676e, 0x6e75, 0x006f, 
+    IDC_TIPO, 0x403, 7, 0
+0x6e45, 0x616c, 0x6563, "\000" 
+    IDC_TIPO, 0x403, 6, 0
+0x7242, 0x6d6f, 0x006f, 
+    IDC_TIPO, 0x403, 6, 0
+0x6c43, 0x726f, 0x006f, 
+    IDC_TIPO, 0x403, 9, 0
+0x6544, 0x7475, 0x7265, 0x6f69, "\000" 
+    IDC_TIPO, 0x403, 6, 0
+0x6c46, 0x6f75, 0x0072, 
+    IDC_TIPO, 0x403, 7, 0
+0x7250, 0x746f, 0x6e6f, "\000" 
+    IDC_ETQTPARAM, 0x403, 2, 0
+0x0020, 
+    0
+END
+
+IDD_INTERACCOBSERVADAPAGE1 DLGINIT
+BEGIN
+    IDC_ETQTPOLO1, 0x403, 2, 0
+0x0020, 
+    IDC_ETQTPOLO2, 0x403, 2, 0
+0x0020, 
+    0
+END
+
+IDD_PREFERENCIASPAGE3 DLGINIT
+BEGIN
+    IDC_PLANO, 0x403, 3, 0
+0x5958, "\000" 
+    IDC_PLANO, 0x403, 3, 0
+0x5a58, "\000" 
+    IDC_PLANO, 0x403, 3, 0
+0x5859, "\000" 
+    IDC_PLANO, 0x403, 3, 0
+0x5a59, "\000" 
+    IDC_PLANO, 0x403, 3, 0
+0x585a, "\000" 
+    IDC_PLANO, 0x403, 3, 0
+0x595a, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORDRAG          CURSOR  DISCARDABLE     "RES\\DragParteRigida.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Aplicación NMR\nSinTítulo\nNMR Document\nNMR Files (*.nmr)\n.nmr\nAplicacionNMR.Doc\nNMR Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Aplicación NMR"
+    AFX_IDS_IDLEMESSAGE     "Preparado"
+    AFX_IDS_HELPMODEMESSAGE2 "Seleccione el objeto sobre el que desea ayuda"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAY"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DESP"
+    ID_INDICATOR_OVR        "SOB"
+    ID_INDICATOR_REC        "GRB"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crea un nuevo documento\nNuevo"
+    ID_FILE_OPEN            "Abre un documento ya existente\nAbrir"
+    ID_FILE_CLOSE           "Cierra el documento activo\nCerrar"
+    ID_FILE_SAVE            "Guarda el documento activo\nGuardar"
+    ID_FILE_SAVE_AS         "Guarda el documento activo con un nuevo nombre\nGuardar como"
+    ID_FILE_PRINT_SETUP     "Selecciona la impresora de destino."
+    ID_FILE_PRINT           "Imprime todo el documento activo."
+    ID_FILE_PRINT_PREVIEW   "Muestra la página tal como se imprimirá."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Muestra información del programa, número de versión y copyright\nAcerca de"
+    ID_APP_EXIT             "Sale de la aplicación; le pide que guarde los documentos\nSalir"
+    ID_HELP_INDEX           "Muestra temas de ayuda\nTemas de ayuda"
+    ID_HELP_FINDER          "Muestra temas de ayuda\nTemas de ayuda"
+    ID_HELP_USING           "Muestra instrucciones acerca de cómo usar la ayuda\nAyuda"
+    ID_CONTEXT_HELP         "Muestra ayuda para los botones, menús y ventanas en los que se hace clic\nAyuda"
+    ID_HELP                 "Muestra ayuda para la tarea o el comando actual\nAyuda"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Abre este documento"
+    ID_FILE_MRU_FILE2       "Abre este documento"
+    ID_FILE_MRU_FILE3       "Abre este documento"
+    ID_FILE_MRU_FILE4       "Abre este documento"
+    ID_FILE_MRU_FILE5       "Abre este documento"
+    ID_FILE_MRU_FILE6       "Abre este documento"
+    ID_FILE_MRU_FILE7       "Abre este documento"
+    ID_FILE_MRU_FILE8       "Abre este documento"
+    ID_FILE_MRU_FILE9       "Abre este documento"
+    ID_FILE_MRU_FILE10      "Abre este documento"
+    ID_FILE_MRU_FILE11      "Abre este documento"
+    ID_FILE_MRU_FILE12      "Abre este documento"
+    ID_FILE_MRU_FILE13      "Abre este documento"
+    ID_FILE_MRU_FILE14      "Abre este documento"
+    ID_FILE_MRU_FILE15      "Abre este documento"
+    ID_FILE_MRU_FILE16      "Abre este documento"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Cambia a la siguiente sección de ventana\nSiguiente sección"
+    ID_PREV_PANE            "Vuelve a la sección de ventana anterior\nSección anterior"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Divide la ventana activa en secciones\nDividir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Borra la selección\nBorrar"
+    ID_EDIT_CLEAR_ALL       "Borra todo\nBorrar todo"
+    ID_EDIT_COPY            "Copia la selección y la coloca en el portapapeles\nCopiar"
+    ID_EDIT_CUT             "Corta la selección y la coloca en el portapapeles\nCortar"
+    ID_EDIT_FIND            "Buscaa el texto especificado\nBuscar"
+    ID_EDIT_PASTE           "Inserta el contenido del portapapeles\nPegar"
+    ID_EDIT_REPEAT          "Repite la última acción\nRepetir"
+    ID_EDIT_REPLACE         "Reemplaza texto específico por otro texto\nReemplazar"
+    ID_EDIT_SELECT_ALL      "Selecciona todo el documento\nSeleccionar todo"
+    ID_EDIT_UNDO            "Deshace la última acción\nDeshacer"
+    ID_EDIT_REDO            "Rehace la acción que acaba de deshacerse\nRehacer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Muestra u oculta la barra de estado\nAlternar Barra de estado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Cambia el tamaño de la ventana"
+    AFX_IDS_SCMOVE          "Cambia la posición de la ventana"
+    AFX_IDS_SCMINIMIZE      "Reduce la ventana a un icono"
+    AFX_IDS_SCMAXIMIZE      "Agranda la ventana al tamaño completo"
+    AFX_IDS_SCNEXTWINDOW    "Cambia a la ventana del siguiente documento"
+    AFX_IDS_SCPREVWINDOW    "Cambia a la ventana del documento anterior"
+    AFX_IDS_SCCLOSE         "Cierra la ventana activa y le pide que guarde los documentos"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaura la ventana a su tamaño normal"
+    AFX_IDS_SCTASKLIST      "Activa la lista de tareas"
+    ID_OBJECTS_FIND         "Muestrta la lista de partes rígidas creadas.\nPartes rígidas"
+    IDC_MAINBAR_BOX         "Muestra la lista de partes rígidas creadas.\nPartes rígidas"
+    IDC_PARTESLIST1         "Barra de partes rígidas"
+    IDS_RESULTSONESHT_CAPTION "Visualizar lista de tensores no diagonalizados"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INSERTAR_BIFENIL     "Inserta un nuevo bifenil.\nBifenil"
+    ID_INSERTAR_TRIFENIL    "Inserta un nuevo trifenil.\nTrifenil"
+    ID_ARCHIVO_PROPIEDADES  "Muestra información acerca del documento activo."
+    ID_ARCHIVO_PREPARARPAGINA 
+                            "Selecciona la impresora de destino y cambia las opciones de impresión."
+    ID_VIEW_AXIS            "Muestra el Eje de Rotación de la Molecula definida.\nEje Rotación"
+    ID_AXIS_X               "Establece  el  eje ""X"" como eje de Rotación.\nEje X"
+    ID_AXIS_Y               "Establece  el  eje ""Y"" como eje de Rotación.\nEje Y"
+    ID_AXIS_Z               "Establece  el  eje ""Z"" como eje de Rotación.\nEje Z"
+    ID_ROTATE_POSITIVE      "Realiza una rotación positiva con respecto a un eje definido.\nRotación positiva"
+    ID_ROTATE_NEGATIVE      "Realiza una rotación negativa con respecto a un eje definido.\nRotación negativa"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TRIFENIL_ELIMINAR    "Elimina el actual trifenil."
+    ID_TRIFENIL_INFORMACION "Muestra información sobre el actual bifenil."
+    ID_TRIFENIL_ANGULOS_EXTERNOS 
+                            "Actualiza los valores de los ángulos externos del trifenil."
+    ID_TRIFENIL_ANGULOS_INTERNOS 
+                            "Actualiza los valores de los ángulos internos del actual trifenil."
+    ID_TRIFENIL_LADOS_EXTERNOS 
+                            "Actualiza los valores de los lados externos del actual trifenil."
+    ID_TRIFENIL_LADOS_INTERNOS 
+                            "Actualiza los valores de los lados externos del actual trifenil."
+    ID_TRIFENIL_ANGULOS     "Actualiza los valores de los ángulos del actual trifenil."
+    ID_TRIFENIL_LADOS       "Actualiza los valores de los lados del actual trifenil."
+    ID_TRIFENIL_BRAZO       "Ajusta el valor correspondiente al brazo del trifenil."
+    ID_ANILLOFENIL_EJEROTACION 
+                            "Actualiza los valores del eje de rotación del actual anillo fenil."
+    ID_BIFENIL_EJEROTACION  "Actualiza los valores del eje de rotación del actual bifenil."
+    ID_TRIFENIL_EJEROTACION "Actualiza los valores del eje de rotación del actual trifenil."
+    ID_INSERTAR_INTERACOBS  "Permite actualizar las interacciones observadas."
+    ID_INSERTAR_INTERACCOMP "Permite actualizar las interacciones componentes."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDITAR_REPETIR       "Repite la ultima acción."
+    ID_EDITAR_BORRAR        "Elimina la selección."
+    ID_INSERTAR_ANILLO      "Inserta un nuevo anillo fenil.\nAnillo Fenil"
+    ID_INSERTAR_VARIABLES   "Permite el ingreso de parametros."
+    ID_CALCULAR_BARRIDO     "Permite realizar un barrido de parámetros."
+    ID_CALCULAR_COMBDADA    "Muestra el resultado de uno por uno"
+    ID_OPCIONES_DATOS3D     "Actualiza los datos tridimensionales."
+    ID_OPCIONES_PREFERENCIAS 
+                            "Permite actualizar las preferencias del programa."
+    ID_OPCIONES_REPORTES_CONFORMAC 
+                            "Imprime el reporte de la conformación molecular actual."
+    ID_VER_BARRA3D          "Muestra u oculta la barra de modo3D\nAlternar Barra de modo3D"
+    ID_VER_BARRAPARTES      "Muestra u oculta la barra de partes."
+    ID_VER_CUADRICULA       "Muestra u oculta la cuadrícula.\nCuadrícula"
+    ID_VER_LISTAPARTES      "Actualiza la lista de partes rígidas creadas."
+    ID_VER_LISTARESULTADOS  "Muestra resultados de cálculos obtenidos."
+    ID_VER_BARRAPRINCIPAL   "Muestra u oculta la barra de menú principal\nAlternar Barra de menú principal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APPROACH             "Acerca la molecula hacia el punto de referencia del observador.\nAproxima"
+    ID_SEPARATE             "Aleja la molecula del punto de referencia del observador.\nAleja"
+    ID_PCYLINDER            "Muestra las propiedades de los lados de la molecula.\nLados"
+    ID_PSPHERE              "Muestra las propiedades de los spines de la molecula.\nSpines"
+    ID_VER_GDI              "Visualiza en Modo Construcción o Diseño."
+    ID_VER_OPENGL           "Visualiza en modo 3D."
+    ID_ANILLOFENIL_ELIMINAR "Elimina el actual anillo fenil."
+    ID_ANILLOFENIL_ANGULOS_EXTERNOS 
+                            "Actualiza los valores de los ángulos externos del actual anillo fenil."
+    ID_ANILLOFENIL_ANGULOS_INTERNOS 
+                            "Actualiza los valores de los ángulos internos del actual anillo fenil."
+    ID_ANILLOFENIL_LADOS_EXTERNOS 
+                            "Actualiza los valores de los lados externos del actual anillo fenil."
+    ID_ANILLOFENIL_LADOS_INTERNOS 
+                            "Actualiza los valores de los lados internos del actual anillo fenil."
+    ID_ANILLOFENIL_INFORMACION 
+                            "Muestra información relacionada sobre el actual anillo fenil."
+    ID_BIFENIL_ELIMINAR     "Elimina el actual bifenil."
+    ID_BIFENIL_ANGULOS      "Actualiza los valores de los ángulos del actual bifenil."
+    ID_BIFENIL_LADOS        "Actualiza los valores de los lados del actual bifenil."
+    ID_BIFENIL_INFORMACION  "Muestra información sobre el actual bifenil."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "Error de inicialización OLE. Cerciórese de tener la versión correcta de las bibliotecas OLE."
+    IDS_PARAMETROSHT_CAPTION "Actualizar la lista de parámetros"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ENLACESHT_CAPTION   "Property Sheet"
+    IDS_PROGRESS_CAPTION    "Realizando cálculos . . . "
+    IDS_INTERACCOBSSHT_CAPTION 
+                            "Actualizar la lista de interacciones observadas"
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB en unidad %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL "No disponible"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_3D_EJECUTAR          "Realiza una demostración de la visualizacion en 3D."
+    ID_INSERTAR_INTERACCIONESDEDISTORCION 
+                            "Permite escojer las interacciones que forman parte del calculo del valor de distorcion (Rho)"
+    ID_OPCIONES_REPORTES_RESULTSFINAL 
+                            "Imprime el reporte de mejores resultados finales según archivo."
+    ID_OPCIONES_REPORTES_RESULTSXERROR 
+                            "Imprime el reporte de mejores resultados finales ordenados por error acumulado."
+    ID_OPCIONES_REPORTES_RESULTSXMAD 
+                            "Imprime el reporte de mejores resultados finales ordenados por el MAD."
+    ID_OPCIONES_CALCULO     "Permite establecer las opciones de calculo del sistema."
+    ID_TRIFENIL_ANGULOS_ANGULOSALEJEDEPROYECCION 
+                            "Permite establecer el angulo formado entre el eje de proyeccion y el lado de la piramide."
+    ID_TRIFENIL_ANGULOS_ANGULOSENTRELOSLADOS 
+                            "Permite establecer los angulos que dan forma a la base de la piramide."
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif
+#include "res\Proyecto.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

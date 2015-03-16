@@ -1,0 +1,116 @@
+// MAKEHELP.BAT generated Help Map file.  Used by PROYECTO.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_INSERTAR_BIFENIL                    0x18006
+HID_INSERTAR_TRIFENIL                   0x18007
+HID_ARCHIVO_PROPIEDADES                 0x18008
+HID_ARCHIVO_PREPARARPAGINA              0x18009
+HID_VIEW_AXIS                           0x1800A
+HID_AXIS_X                              0x1800B
+HID_AXIS_Y                              0x1800C
+HID_AXIS_Z                              0x1800D
+HID_ROTATE_POSITIVE                     0x1800E
+HID_ROTATE_NEGATIVE                     0x1800F
+HID_APPROACH                            0x18010
+HID_SEPARATE                            0x18011
+HID_PCYLINDER                           0x18012
+HID_PSPHERE                             0x18013
+HID_VER_GDI                             0x18014
+HID_VER_OPENGL                          0x18015
+HID_ANILLOFENIL_ELIMINAR                0x18016
+HID_ANILLOFENIL_ANGULOS_EXTERNOS        0x18017
+HID_ANILLOFENIL_ANGULOS_INTERNOS        0x18018
+HID_ANILLOFENIL_LADOS_EXTERNOS          0x18019
+HID_ANILLOFENIL_LADOS_INTERNOS          0x1801A
+HID_ANILLOFENIL_INFORMACION             0x1801B
+HID_BIFENIL_ELIMINAR                    0x1801C
+HID_BIFENIL_ANGULOS                     0x1801D
+HID_BIFENIL_LADOS                       0x1801E
+HID_BIFENIL_INFORMACION                 0x1801F
+HID_TRIFENIL_ELIMINAR                   0x18020
+HID_TRIFENIL_INFORMACION                0x18021
+HID_TRIFENIL_ANGULOS_EXTERNOS           0x18022
+HID_TRIFENIL_ANGULOS_INTERNOS           0x18023
+HID_TRIFENIL_LADOS_EXTERNOS             0x18024
+HID_TRIFENIL_LADOS_INTERNOS             0x18025
+HID_TRIFENIL_ANGULOS                    0x18026
+HID_TRIFENIL_LADOS                      0x18027
+HID_TRIFENIL_BRAZO                      0x18028
+HID_ANILLOFENIL_EJEROTACION             0x18029
+HID_BIFENIL_EJEROTACION                 0x1802A
+HID_TRIFENIL_EJEROTACION                0x1802B
+HID_INSERTAR_INTERACOBS                 0x1802C
+HID_BUTTON32865                         0x1802D
+HID_INSERTAR_INTERACCOMP                0x1802E
+HID_BUTTON32870                         0x1802F
+HID_EDITAR_REPETIR                      0x18030
+HID_EDITAR_BORRAR                       0x18031
+HID_INSERTAR_ANILLO                     0x18032
+HID_INSERTAR_VARIABLES                  0x18033
+HID_CALCULAR_BARRIDO                    0x18034
+HID_CALCULAR_COMBDADA                   0x18035
+HID_OPCIONES_DATOS3D                    0x18036
+HID_OPCIONES_PREFERENCIAS               0x18037
+HID_OPCIONES_REPORTES_CONFORMAC         0x18038
+HID_VER_BARRA3D                         0x18039
+HID_VER_BARRAPARTES                     0x1803A
+HID_VER_CUADRICULA                      0x1803B
+HID_VER_LISTAPARTES                     0x1803C
+HID_VER_LISTARESULTADOS                 0x1803D
+HID_VER_BARRAPRINCIPAL                  0x1803E
+HID_FILE_NUEVO                          0x1808C
+HID_FILE_ABRIR                          0x1808D
+HID_ARCHIVO_CERRAR                      0x1808E
+HID_3D_EJECUTAR                         0x18093
+HID_INSERTAR_INTERACCIONESDEDISTORCION  0x18094
+HID_OPCIONES_REPORTES_RESULTSFINAL      0x18097
+HID_OPCIONES_REPORTES_RESULTSXERROR     0x18099
+HID_OPCIONES_REPORTES_RESULTSXMAD       0x1809A
+HID_OPCIONES_CALCULO                    0x1809B
+HID_TRIFENIL_ANGULOS_ANGULOSALEJEDEPROYECCION	0x1809C
+HID_TRIFENIL_ANGULOS_ANGULOSENTRELOSLADOS	0x1809D
+HID_OPCIONES_EJEDESIMETRA               0x1809E
+HID_OBJECTS_FIND                        0x1EF17
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_PROYECTYPE                         0x20081
+HIDR_3DTOOLBAR                          0x20084
+HIDR_ANILLOFENIL                        0x20087
+HIDR_BIFENIL                            0x20088
+HIDR_TRIFENIL                           0x20089
+HIDR_CHILDFRAME                         0x2008A
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_ENLACEPAGE1                        0x2006D
+HIDD_ENLACEPAGE2                        0x2006E
+HIDD_PROGRESS                           0x20074
+HIDD_INTERACCOBSERVADAPAGE1             0x2007B
+HIDD_INTERACCOBSERVADAPAGE2             0x2007C
+HIDD_ANGULO                             0x20082
+HIDD_RECTA                              0x20083
+HIDD_LIST                               0x2008F
+HIDD_EJE                                0x20093
+HIDD_3DDATA                             0x20094
+HIDD_ICONOS                             0x20097
+HIDD_INTERACC                           0x200AA
+HIDD_INTERACCCOMPONENTS                 0x200AB
+HIDD_PARAMVARIABLEPAGE1                 0x200AD
+HIDD_LISTCTRL                           0x200AE
+HIDD_PARAMETROPAGE1                     0x200B8
+HIDD_PARAMETROPAGE2                     0x200B9
+HIDD_PROPIEDADES                        0x200BF
+HIDD_DIALOG1                            0x200C2
+HIDD_ENLACEPAGE3                        0x200C4
+HIDD_LISTCTRL2                          0x200C5
+HIDD_PREFERENCIASPAGE1                  0x200C8
+HIDD_INTERACCELEGIDASPAGE1              0x200C9
+HIDD_INTERACCELEGIDASPAGE2              0x200CA
+HIDD_PREFERENCIASPAGE2                  0x200DB
+HIDD_PREFERENCIASPAGE3                  0x200DC
+ 
+// Frame Controls (IDW_*) 

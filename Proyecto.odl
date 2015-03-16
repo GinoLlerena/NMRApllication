@@ -1,0 +1,41 @@
+// Proyecto.odl : type library source for Proyecto.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Proyecto.tlb).
+
+[ uuid(DC80CA4A-0D48-11D2-B39A-DCF0D4C56A32), version(1.0) ]
+library Proyecto
+{
+	importlib("stdole32.tlb");
+	
+
+	//  Primary dispatch interface for CProyectoDoc
+	
+	[ uuid(DC80CA4B-0D48-11D2-B39A-DCF0D4C56A32) ]
+	dispinterface IProyecto
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CProyectoDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CProyectoDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CProyectoDoc
+	
+	[ uuid(DC80CA49-0D48-11D2-B39A-DCF0D4C56A32) ]
+	coclass Document
+	{
+		[default] dispinterface IProyecto;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

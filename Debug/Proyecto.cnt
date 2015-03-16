@@ -1,0 +1,17 @@
+:Base Proyecto.hlp>Main
+:Title Ayuda de Aplicación NMR
+1 Menús
+2 Menú Archivo=menu_file
+2 Menú Editar=menu_edit
+2 Menú Ver=menu_view
+2 Menú Insertar=menu_insert
+2 Menú Calcular=menu_calculate
+2 Menú 3D=menu_3D
+2 Menú Opciones=menu_choose
+2 Menú Ayuda=menu_help
+1 ¿ Cómo . . .
+2 Actualizar la lista de interacciones observadas ?=comoActualizarListaInteraccionObservada
+2 Actualizar la lista de interacciones componentes ?=comoActualizarListaInteraccionComponente
+2 Actualizar la lista de parámetros variables ?=comoActualizarListaParametroVariable
+2 Realizar el barrido de datos ?=comoRealizarBarridoDatos
+2 Realizar el cálculo para una única combinación de datos ?=comoRealizarCalculoUnicaCombinacionDatos

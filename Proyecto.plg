@@ -1,0 +1,296 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Proyecto - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.bat" with contents
+[
+@echo off
+call ".\makehelp.bat"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.bat"
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/Proyecto.tlb" /mktyplib203 /o "NUL" /win32 "C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Proyecto.odl""
+Making help file...
+Building Win32 Help files
+
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+Creating command line "rc.exe /l 0xc0a /fo"Debug/Proyecto.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Proyecto.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/Proyecto.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\3DDataPage.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\3DDataSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\3DToolBar.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Actualizador.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Angulo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\AnguloPage.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\AnguloSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\CalculoTensoresPageDos.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\CalculoTensoresPageUno.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\CalculoTensoresSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ConstructorMolecula.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\CoordEsf.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Distorcion.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EjeRotacionPage.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EjeRotacionSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EnlacePageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EnlacePageThree.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EnlacePageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\EnlaceSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Fichero.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\IconosDlgBar.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccCalculada.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccComponent.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccComponentDlg.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Interaccion.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccObservada.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccObservadaPageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccObservadaPageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\InteraccObservadaSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Lado.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ListaPartesDlg.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\MainBar.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\MainFrm.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Material.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Mathemat.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Matriz.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ObjectsBox.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\OpenGLView.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Parametro.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroPageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroPageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroVariable.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroVariablePageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroVariablePageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParametroVariableSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ParteRigida.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PartesListCtrl.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PreferenciasPageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PreferenciasPageThree.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PreferenciasPageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PreferenciasSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ProgressDlg.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PropiedadesDlg.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Proyecto.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ProyectoDoc.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ProyectoView.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\PtoPerpendicular.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Punto3D.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\RealizadorCalculo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\RealizadorReporte.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\RectaPage.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\RectaSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ResultadosOnePageOne.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ResultadosOnePageThree.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ResultadosOnePageTwo.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ResultadosOneSheet.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Rutinas.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Seleccionadora.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\SistEcuac.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Spin.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Splash.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\TempView.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Tensor.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\Trigonom.cpp"
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\ValorDual.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/Proyecto.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Migracion\DiscoD\Tesis\Sistema 09 (01-12-98)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.tmp" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Proyecto.pdb" /debug /machine:I386 /out:"Debug/Proyecto.exe" /pdbtype:sept 
+".\Debug\3DDataPage.obj"
+".\Debug\3DDataSheet.obj"
+".\Debug\3DToolBar.obj"
+".\Debug\Actualizador.obj"
+".\Debug\Angulo.obj"
+".\Debug\AnguloPage.obj"
+".\Debug\AnguloSheet.obj"
+".\Debug\CalculoTensoresPageDos.obj"
+".\Debug\CalculoTensoresPageUno.obj"
+".\Debug\CalculoTensoresSheet.obj"
+".\Debug\ConstructorMolecula.obj"
+".\Debug\CoordEsf.obj"
+".\Debug\Distorcion.obj"
+".\Debug\EjeRotacionPage.obj"
+".\Debug\EjeRotacionSheet.obj"
+".\Debug\EnlacePageOne.obj"
+".\Debug\EnlacePageThree.obj"
+".\Debug\EnlacePageTwo.obj"
+".\Debug\EnlaceSheet.obj"
+".\Debug\Fichero.obj"
+".\Debug\IconosDlgBar.obj"
+".\Debug\InteraccCalculada.obj"
+".\Debug\InteraccComponent.obj"
+".\Debug\InteraccComponentDlg.obj"
+".\Debug\Interaccion.obj"
+".\Debug\InteraccObservada.obj"
+".\Debug\InteraccObservadaPageOne.obj"
+".\Debug\InteraccObservadaPageTwo.obj"
+".\Debug\InteraccObservadaSheet.obj"
+".\Debug\Lado.obj"
+".\Debug\ListaPartesDlg.obj"
+".\Debug\MainBar.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Material.obj"
+".\Debug\Mathemat.obj"
+".\Debug\Matriz.obj"
+".\Debug\ObjectsBox.obj"
+".\Debug\OpenGLView.obj"
+".\Debug\Parametro.obj"
+".\Debug\ParametroPageOne.obj"
+".\Debug\ParametroPageTwo.obj"
+".\Debug\ParametroSheet.obj"
+".\Debug\ParametroVariable.obj"
+".\Debug\ParametroVariablePageOne.obj"
+".\Debug\ParametroVariablePageTwo.obj"
+".\Debug\ParametroVariableSheet.obj"
+".\Debug\ParteRigida.obj"
+".\Debug\PartesListCtrl.obj"
+".\Debug\PreferenciasPageOne.obj"
+".\Debug\PreferenciasPageThree.obj"
+".\Debug\PreferenciasPageTwo.obj"
+".\Debug\PreferenciasSheet.obj"
+".\Debug\ProgressDlg.obj"
+".\Debug\PropiedadesDlg.obj"
+".\Debug\Proyecto.obj"
+".\Debug\ProyectoDoc.obj"
+".\Debug\ProyectoView.obj"
+".\Debug\PtoPerpendicular.obj"
+".\Debug\Punto3D.obj"
+".\Debug\RealizadorCalculo.obj"
+".\Debug\RealizadorReporte.obj"
+".\Debug\RectaPage.obj"
+".\Debug\RectaSheet.obj"
+".\Debug\ResultadosOnePageOne.obj"
+".\Debug\ResultadosOnePageThree.obj"
+".\Debug\ResultadosOnePageTwo.obj"
+".\Debug\ResultadosOneSheet.obj"
+".\Debug\Rutinas.obj"
+".\Debug\Seleccionadora.obj"
+".\Debug\SistEcuac.obj"
+".\Debug\Spin.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TempView.obj"
+".\Debug\Tensor.obj"
+".\Debug\Trigonom.obj"
+".\Debug\ValorDual.obj"
+".\Debug\Proyecto.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.tmp"
+<h3>Output Window</h3>
+Creating Type Library...
+Proyecto.odl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3DDataPage.cpp
+3DDataSheet.cpp
+3DToolBar.cpp
+Actualizador.cpp
+Angulo.cpp
+AnguloPage.cpp
+AnguloSheet.cpp
+CalculoTensoresPageDos.cpp
+CalculoTensoresPageUno.cpp
+CalculoTensoresSheet.cpp
+ConstructorMolecula.cpp
+CoordEsf.cpp
+Distorcion.cpp
+EjeRotacionPage.cpp
+EjeRotacionSheet.cpp
+EnlacePageOne.cpp
+EnlacePageThree.cpp
+EnlacePageTwo.cpp
+EnlaceSheet.cpp
+Fichero.cpp
+Generating Code...
+Compiling...
+IconosDlgBar.cpp
+InteraccCalculada.cpp
+InteraccComponent.cpp
+InteraccComponentDlg.cpp
+Interaccion.cpp
+InteraccObservada.cpp
+InteraccObservadaPageOne.cpp
+InteraccObservadaPageTwo.cpp
+InteraccObservadaSheet.cpp
+Lado.cpp
+ListaPartesDlg.cpp
+MainBar.cpp
+MainFrm.cpp
+Material.cpp
+Mathemat.cpp
+Matriz.cpp
+ObjectsBox.cpp
+OpenGLView.cpp
+Parametro.cpp
+ParametroPageOne.cpp
+Generating Code...
+Compiling...
+ParametroPageTwo.cpp
+ParametroSheet.cpp
+ParametroVariable.cpp
+ParametroVariablePageOne.cpp
+ParametroVariablePageTwo.cpp
+ParametroVariableSheet.cpp
+ParteRigida.cpp
+PartesListCtrl.cpp
+PreferenciasPageOne.cpp
+PreferenciasPageThree.cpp
+PreferenciasPageTwo.cpp
+PreferenciasSheet.cpp
+ProgressDlg.cpp
+PropiedadesDlg.cpp
+Proyecto.cpp
+ProyectoDoc.cpp
+ProyectoView.cpp
+PtoPerpendicular.cpp
+Punto3D.cpp
+RealizadorCalculo.cpp
+Generating Code...
+Compiling...
+RealizadorReporte.cpp
+RectaPage.cpp
+RectaSheet.cpp
+ResultadosOnePageOne.cpp
+ResultadosOnePageThree.cpp
+ResultadosOnePageTwo.cpp
+ResultadosOneSheet.cpp
+Rutinas.cpp
+Seleccionadora.cpp
+SistEcuac.cpp
+Spin.cpp
+Splash.cpp
+TempView.cpp
+Tensor.cpp
+Trigonom.cpp
+ValorDual.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Proyecto.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
